@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Tsardines/coffee-tab/issues"
   },
-  "homepage": "https://github.com/Tsardines/coffee-tab#readme"
+  "homepage": "https://github.com/Tsardines/coffee-tab#readme",
+  "dependencies": {
+    "react": "^16.6.1",
+    "react-live-clock": "^3.0.0"
+  }
 }
