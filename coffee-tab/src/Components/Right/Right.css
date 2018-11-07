@@ -1,0 +1,18 @@
+.right {
+  background-color: turquoise;
+  width: 40vw;
+}
+
+.cal {
+  background-color: yellow;
+  height: 25vh;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.weather {
+  background-color: purple;
+  height: 25vh;
+  margin: 0 auto;
+  width: 70%;
+}
