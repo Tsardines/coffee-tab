@@ -1,0 +1,19 @@
+.left {
+  background-color: orange;
+  height: 80vh;
+  width: 50vw;
+}
+
+.welcome {
+  background-color: white;
+  height: 25vh;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.time-date {
+  background-color: pink;
+  height: 25vh;
+  margin: 0 auto;
+  width: 70%;
+}
