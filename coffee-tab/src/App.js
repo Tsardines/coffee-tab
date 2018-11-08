@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Left from './Components/Left/Left.js';
 import Right from './Components/Right/Right.js';
 
-// import { Animated } from 
+import { Text, Animated, View, Stylesheet, Platform } from 'react-native';
 
 import './App.css';
 
@@ -38,13 +38,15 @@ class App extends Component {
     const bckgrColorVar = this.animatedValue.interpolate(
       {
         inputRange: [ 0, 0.5, 1 ],
-        ourputRange: [ 'magenta', 'red', 'yellow']
+        outputRange: [ 'magenta', 'red', 'yellow']
       });
 
     return (
       <div className="App">
 
-      <Animated.View style = { bckgrColor: bckgrColorVar } > </Animated.View>
+      <Animated.View style = {[ styles.container, { bckgrColor: bckgrColorVar } ]}> 
+        <Text style = { styles.text }>Animated></Text>
+      </Animated.View>
 
         <Left />
         <Right />
@@ -53,5 +55,24 @@ class App extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    bckgrColor: '#f5fcff',
+  },
+  text: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: 'blue',
+    marginBottom: 5,
+  },
+});
 
 export default App;
