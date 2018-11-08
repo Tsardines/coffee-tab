@@ -27,8 +27,6 @@ class TimeDate extends Component {
     return (
       <div className="time-date">
 
-        <h1>TimeDate Box</h1>
-
       <div className="time">
 
         <h1>

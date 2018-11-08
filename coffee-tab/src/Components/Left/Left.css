@@ -1,6 +1,6 @@
 .left {
-  background-color: orange;
-  height: 80vh;
+  /* background-color: orange; */
+  height: 90vh;
   width: 50vw;
 }
 
@@ -11,9 +11,22 @@
   width: 70%;
 }
 
+.welcome h1 {
+  font-size: 5vw;
+}
+
 .time-date {
   background-color: pink;
-  height: 25vh;
+  height: 35vh;
   margin: 0 auto;
+  padding: 1.25em;
   width: 70%;
+}
+
+.time {
+  font-size: 3.45vw;
+}
+
+.date {
+  font-size: 2vw;
 }
