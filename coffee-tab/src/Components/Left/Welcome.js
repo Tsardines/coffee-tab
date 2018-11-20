@@ -8,7 +8,7 @@ class Welcome extends Component {
     return (
       <div className="welcome">
 
-      <h1>Hey! Welcome back.</h1>
+      <h1>Welcome back.</h1>
 
       </div>
 

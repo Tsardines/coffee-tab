@@ -10,8 +10,6 @@ class Left extends Component {
     return (
       <div className="left">
 
-      <h1>Left Box</h1>
-
       <Welcome />
       <TimeDate />
 

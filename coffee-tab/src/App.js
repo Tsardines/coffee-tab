@@ -9,42 +9,45 @@ import './App.css';
 
 class App extends Component {
 
-  constructor() 
-  {
-    super()
-    this.animatedValue = new this.animatedValue.Value(0);
-  }
+  // constructor() 
+  // {
+  //   super()
+  //   this.animatedValue = new this.animatedValue.Value(0);
+  // }
 
-  animateBckgrColor = () => 
-  {
-    this.animatedValue.setValue(0);
-    Animated.timing(
-      this.animatedValue,
-      {
-        toValue: 1,
-        duration: 12000
-      }
-    ).start(() => { this.animateBckgrColor() });
-  }
+  // animateBckgrColor = () => 
+  // {
+  //   this.animatedValue.setValue(0);
+  //   Animated.timing(
+  //     this.animatedValue,
+  //     {
+  //       toValue: 1,
+  //       duration: 12000
+  //     }
+  //   ).start(() => { this.animateBckgrColor() });
+  // }
 
-  componentDidMount()
-  {
-    this.animateBckgrColor();
-  }
+  // componentDidMount()
+  // {
+  //   this.animateBckgrColor();
+  // }
 
 
   render() {
 
-    const bckgrColorVar = this.animatedValue.interpolate(
-      {
-        inputRange: [ 0, 0.5, 1 ],
-        ourputRange: [ 'magenta', 'red', 'yellow']
-      });
+    // const bckgrColorVar = this.animatedValue.interpolate (
+    //   {
+    //     inputRange: [ 0, 0.5, 1 ],
+    //     ourputRange: [ 'magenta', 'red', 'yellow']
+    //   });
 
     return (
+
       <div className="App">
 
-      <Animated.View style = { bckgrColor: bckgrColorVar } > </Animated.View>
+        {/* <div className="view-style">
+          <Animated.View style = { bckgrColor: bckgrColorVar } />
+        </div> */}
 
         <Left />
         <Right />
