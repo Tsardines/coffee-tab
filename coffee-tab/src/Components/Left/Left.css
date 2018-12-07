@@ -5,9 +5,9 @@
 }
 
 .welcome {
-  background-color: white;
   height: 25vh;
   margin: 0 auto;
+  margin-bottom: 2em;
   width: 70%;
 }
 

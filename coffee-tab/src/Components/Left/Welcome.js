@@ -11,14 +11,13 @@ class Welcome extends Component {
       "Before you point fingers at others, make sure you have no dirt under your own nails.",
       "Alrite, tha.",
       "I couldn't fix your brakes so I made your horn louder.",
-      "It's always darkest just before the dawn, so if you're trying to steal your neighbor's newspaper that would be the time to do it.",
       "I was gonna tell a time traveling joke but you guys didn't like it.",
       "My favorite things are eating my family and not using commas.",
       "Shout out to the people wondering what the opposite of in is.",
       "People are often shocked when they find out I'm not a good electrician."
     ];
 
-    let randomItem = messageArr[Math.floor(Math.random()*9)];
+    let randomItem = messageArr[Math.floor(Math.random()*messageArr.length)];
 
     return (
       <div className="welcome">
