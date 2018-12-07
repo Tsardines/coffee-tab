@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
 import ApiCalendar from 'react-google-calendar-api';
-
 import './Right.css';
 
 class Cal extends Component {
