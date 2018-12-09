@@ -22,7 +22,7 @@ class Welcome extends Component {
     return (
       <div className="welcome">
 
-      <h1>"{randomItem}"</h1>
+        <h1>"{randomItem}"</h1>
 
       </div>
 

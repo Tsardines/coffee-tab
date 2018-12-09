@@ -31,7 +31,6 @@ class Cal extends Component {
       <button onClick={(e) => this.handleItemClick(e, 'sign-out')} ></button>
         sign-out
       </div>
-
     );
   }
 }

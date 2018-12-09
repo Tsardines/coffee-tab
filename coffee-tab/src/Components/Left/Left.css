@@ -15,8 +15,9 @@
   font-size: 3vw;
 }
 
+/* ------- */
+
 .time-date {
-  background-color: pink;
   height: 35vh;
   margin: 0 auto;
   padding: 1.25em;
@@ -25,6 +26,7 @@
 
 .time {
   font-size: 3.45vw;
+  margin-bottom: -1.25em;
 }
 
 .date {

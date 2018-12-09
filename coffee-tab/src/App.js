@@ -35,6 +35,8 @@ class App extends Component {
 
   render() {
 
+
+
     // const bckgrColorVar = this.animatedValue.interpolate (
     //   {
     //     inputRange: [ 0, 0.5, 1 ],
