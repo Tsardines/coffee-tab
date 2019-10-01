@@ -40,7 +40,7 @@ class App extends Component {
     // const bckgrColorVar = this.animatedValue.interpolate (
     //   {
     //     inputRange: [ 0, 0.5, 1 ],
-    //     ourputRange: [ 'magenta', 'red', 'yellow']
+    //     outputRange: [ 'magenta', 'red', 'yellow']
     //   });
 
     return (
